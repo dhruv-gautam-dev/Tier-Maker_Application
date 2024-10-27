@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tier List</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1> TIER LIST </h1>
+
+  <form>
+  <label for="tier" class="lableText" >Tier List Name:</label>
+  <input type="text" id="tier" class="userInput" name="tier" placeholder="Enter your Tier List Name ">
+  <button type="submit" id="Submit" class="clickMeBtn"  value="submit">click ME </button>
+  </form>
+
+
+  <hr>
+  
+  
+  <form id="img-form">
+    <label for="img-item" class="lableText" >Image Url:</label>
+    <input type="text" id="img-item" class="userInput" name="Item" placeholder="Enter your  image URL Here">
+    <button type="submit" id="Submit-img" class="clickMeBtn"  value="submit">click ME </button>
+    </form>
+
+  <hr>
+  
+  <section id="tier-list-section">
+    <h3 class="h3"> Lists</h3>
+    <!-- <div class="tier-list">
+      <h1>Sample tier List</h1>
+      <div class="tier-list-items"></div>
+    </div> -->
+    
+  </section>
+  <hr>
+
+
+  <section id="non-tier-Section">
+    <h3 class="h3 imageHeading">Images:</h3>
+    <div class="item-container" draggable="true">`
+      <img 
+      src="https://tse3.mm.bing.net/th?id=OIP.-WMZB9WdY2y_I0asBYlwFwHaFY&pid=Api&P=0&h=180"
+      />
+    </div>
+
+    <!-- <div class="item-container" draggable="true">`
+      <img 
+      src="https://tse3.mm.bing.net/th?id=OIP.-WMZB9WdY2y_I0asBYlwFwHaFY&pid=Api&P=0&h=180"
+      />
+    </div>
+
+    <div class="item-container" draggable="true">`
+      <img 
+      src="https://tse3.mm.bing.net/th?id=OIP.-WMZB9WdY2y_I0asBYlwFwHaFY&pid=Api&P=0&h=180"
+      />
+    </div> -->
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

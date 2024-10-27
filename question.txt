@@ -1,0 +1,9 @@
+in order to understand DOM manipulation we will learn by building a small  TierMaker app
+
+// what features do we expect 
+1. one should be able to create tier bucket and  named it 
+2. Name of the bucket should be editable 
+3. one should be able to add element which can be dragged and dropped in these bucket 
+4.may be double clicking should bring on outer then out of bucket 
+5. Every element will be having an image, so to add an element, for this we need to provide the url of image directly in form  
+6. fot

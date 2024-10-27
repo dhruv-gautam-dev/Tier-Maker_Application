@@ -1,0 +1,89 @@
+body{
+  padding:0;
+  margin:0;
+  background-color: #242222 ;
+}
+h1 {
+  color:white;
+  text-align: center;
+}
+.h3{
+  color:white;
+  text-align: center;
+  font-size: x-large;
+  
+  border-radius: 5px;
+  /* border-right: 2px solid white ; */
+  
+}
+.imageHeading{
+  background-color: rgb(142, 206, 142);
+  margin-left: 10px;
+  font-size: xx-large;
+}
+label{
+  color:white;
+}
+.lableText{
+  font-size: x-large;
+}
+
+.userInput{
+  border-radius: 5px;
+  margin-right: 10px;
+  padding:5px;
+
+}
+
+.clickMeBtn{
+  font-size: large;
+  border-radius: 5px;
+  background-color: rgb(206, 142, 142);
+}
+/* .blueColor{
+  background-color: rgb(219, 233, 243);
+} */
+#tier-list-section{
+  /* border: 2px solid black ; */
+  /* border-radius: 10px; */
+  padding:5px;
+}
+.tier-List{
+  border:2px solid white ; 
+  margin-top: 2rem;
+  padding-top: 5px ;
+  /* padding-bottom: 5px;  */
+  border-radius: 10px;
+  display:flex;
+  /* height: 75px; */
+}
+.tier-List > h1{
+  border-right: 2px solid white ;
+  padding-right: 10px  ;
+  background-color: rgb(87, 112, 130);
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: xx-large;
+}
+
+#non-tier-Section{
+  display: flex;
+  gap :1rem; 
+}
+.item-container{
+  width: 75px;
+  height: 75px;
+  display: flex;
+}
+
+.item-container > img{
+  width:100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.tier-list-items{
+  min-width: 50%;
+  display: flex;
+  gap:5px;
+}
